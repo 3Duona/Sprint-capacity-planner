@@ -1,0 +1,20 @@
+image: node:10.15.3
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test
+            caches:
+              - node
+            script:
+              - cd frontend
+              - npm install
+        - step:
+            name: Code linting
+            script:
+              - cd frontend
+              - npm install eslint
+              - npm run lint
+            caches:
+              - node

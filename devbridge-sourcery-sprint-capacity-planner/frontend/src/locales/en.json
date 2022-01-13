@@ -1,0 +1,10 @@
+{
+  "maxDays1": "Days must not be more than",
+  "maxDays2": "and no more than the number of days selected",
+  "maxDays3": "Day count must not be more than the number of days selected",
+  "usernameRule": "Username must not contain more than one '.' or '_' symbol in a row.",
+  "startDate": "Start date must be today or after",
+  "endDate": "End date must not be before start date",
+  "passwordMatchRule": "Passwords must match",
+  "passwordRule": "Password must contain six symbols of which there must be at least one uppercase letter and at least one number."
+}

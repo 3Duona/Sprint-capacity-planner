@@ -1,0 +1,8 @@
+{
+  "maxDays1": "Dienų skaičius negali būti daugiau nei",
+  "maxDays2": "ir daugiau nei pasirinktų dienų skaičius",
+  "maxDays": "Maksimalus dienų skaičius - ",
+  "usernameRule": "Vartotojo vardas negali turėti dviejų ar daugiau '.' ir '_' simbolių iš eilės",
+  "startDate": "Pradžios data turi prasidėti nuo šiandienos datos",
+  "endDate": "Pabaigos data turi būti po pradžios datos"
+}

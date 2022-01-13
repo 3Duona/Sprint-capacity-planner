@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210425125057_teamAndUserAdded.cs" />
+    <Compile Remove="Migrations\20210425125057_teamAndUserAdded.Designer.cs" />
+    <Compile Remove="Migrations\20210425125608_teamAndUserAdded.cs" />
+    <Compile Remove="Migrations\20210425125608_teamAndUserAdded.Designer.cs" />
+    <Compile Remove="Migrations\20210425132019_teamAndUserAddedTeamID.cs" />
+    <Compile Remove="Migrations\20210425132019_teamAndUserAddedTeamID.Designer.cs" />
+    <Compile Remove="Migrations\20210425132630_teamAndUserAddedSeed.cs" />
+    <Compile Remove="Migrations\20210425132630_teamAndUserAddedSeed.Designer.cs" />
+    <Compile Remove="Migrations\20210425191509_UserTeamIdAdded2.cs" />
+    <Compile Remove="Migrations\20210425191509_UserTeamIdAdded2.Designer.cs" />
+    <Compile Remove="Migrations\20210426101114_TeamAndUsersSeed.cs" />
+    <Compile Remove="Migrations\20210426101114_TeamAndUsersSeed.Designer.cs" />
+    <Compile Remove="Migrations\20210426101302_TeamAndUsersSeed.cs" />
+    <Compile Remove="Migrations\20210426101302_TeamAndUsersSeed.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\backend.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

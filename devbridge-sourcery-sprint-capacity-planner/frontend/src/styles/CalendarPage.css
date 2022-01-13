@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.calendar, .calendar-details{
+  margin: 3em;
+}
+
+.calendar {
+  width: 55%;
+}
+
+.calendar-details{
+   width: 30%
+}

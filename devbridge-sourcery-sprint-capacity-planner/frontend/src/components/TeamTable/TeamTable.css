@@ -1,0 +1,43 @@
+table.teamTable {
+  margin: auto;
+  width: 60%;
+}
+
+tbody.teamTable > tr > td,
+thead.teamTable > tr > th {
+  text-align: left;
+  padding: 8px;
+  height: 40px;
+}
+
+.rowButtons{
+  display: flex;
+}
+
+.leftMostButtons .rightMostButtons {
+  flex:1;
+}
+
+.leftMostButtons {
+  margin-right: auto;
+}
+
+.rightMostButtons {
+  margin-left: auto;
+}
+
+.expandableRow-content {
+  padding: 2%;
+}
+
+tbody.teamTable > tr > td:nth-child(1) {
+  width: 20%;
+}
+
+tbody.teamTable > tr > td:nth-child(2) {
+  width: 65%;
+}
+
+tbody.teamTable > tr > td:nth-child(3) {
+  width: 15%;
+}
