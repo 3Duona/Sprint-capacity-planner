@@ -1,5 +1,5 @@
 # Sprint-capacity-planner
-Copy of sprint capacity planner app from bitbucket
+sprint capacity planner app
 ## Used technologies
 Git <br /> React.js <br /> Material UI <br /> Redux <br /> MsSQL <br /> .NET Core <br />
 ## How to run
